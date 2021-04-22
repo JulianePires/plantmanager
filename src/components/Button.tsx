@@ -11,11 +11,17 @@ import fonts from "../styles/fonts";
 
 interface ButtonProps extends TouchableOpacityProps {
   title: string;
+  disabled: boolean;
 }
 
-export function Button({ title, ...rest }: ButtonProps) {
+export function Button({ title, disabled, ...rest }: ButtonProps) {
   return (
-    <TouchableOpacity style={styles.container} activeOpacity={0.7} {...rest}>
+    <TouchableOpacity
+      style={[styles.container, disabled ? { opacity: 0.5 } : { opacity: 1 }]}
+      activeOpacity={0.7}
+      disabled={disabled}
+      {...rest}
+    >
       <Text style={styles.buttonText}>{title}</Text>
     </TouchableOpacity>
   );
