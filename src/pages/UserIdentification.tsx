@@ -1,3 +1,4 @@
+import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import {
   KeyboardAvoidingView,
@@ -17,6 +18,11 @@ export function UserIdentification() {
   const [isFocused, setIsFocused] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
   const [name, setName] = useState<string>();
+  const navigation = useNavigation();
+
+  function handleSubmit() {
+    navigation.navigate("Confirmation");
+  }
 
   function handleInputBlur() {
     setIsFocused(false);
@@ -58,7 +64,7 @@ export function UserIdentification() {
               ></TextInput>
             </View>
             <View style={styles.footer}>
-              <Button title="Confirmar" />
+              <Button title="Confirmar" onPress={handleSubmit} />
             </View>
           </View>
         </View>
