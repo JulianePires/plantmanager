@@ -1,7 +1,7 @@
 <div align="center" id="top"> 
   <img src="./.github/favicon.png" alt="PlantManager" />
 
-  &#xa0;
+&#xa0;
 
   <!-- <a href="https://sinchfood.netlify.com">Demo</a> -->
 </div>
@@ -28,7 +28,7 @@
 
 <h4 align="center"> 
 	🚧  Plant Manager 🚀 Em construção...  🚧
-</h4> 
+</h4>
 
 <hr>
 
@@ -44,17 +44,17 @@
 
 <br>
 
-## :dart: Sobre ##
+## :dart: Sobre
 
-Sobre o seu projeto
+Um App criado em React Native durante a NLW#5 para gerenciamento de plantas
 
-## :sparkles: Funcionalidades ##
+## :sparkles: Funcionalidades
 
 :heavy_check_mark: Nativo (Android e iOS);\
 :heavy_check_mark: Gerencia a manutenção das suas plantinhas;\
 :heavy_check_mark: Você pode nomear as plantas;
 
-## :rocket: Tecnologias ##
+## :rocket: Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -62,11 +62,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
 
-## :white_check_mark: Pré requisitos ##
+## :white_check_mark: Pré requisitos
 
 Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
 
-## :checkered_flag: Começando ##
+## :checkered_flag: Começando
 
 ```bash
 # Clone este repositório
@@ -87,10 +87,9 @@ $ yarn start
 # Você também pode optar pelo TÚNEL
 ```
 
-## :memo: Licença ##
+## :memo: Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
 
 Feito com :heart: por <a href="https://github.com/JulianePires" target="_blank">Juliane Pires</a>
 
